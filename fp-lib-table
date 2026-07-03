@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ESP32") (type "KiCad") (uri "${KIPRJMOD}/t-display-s3.pretty") (options "") (descr ""))
+	(lib (name "PICO") (type "KiCad") (uri "${KIPRJMOD}/RaspberryPiPinHeader.pretty") (options "") (descr ""))
+)
