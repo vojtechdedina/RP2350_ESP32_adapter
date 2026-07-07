@@ -8251,6 +8251,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 196.85 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d42e6d87-133b-41f2-a35f-e32823a4e219")
 		)
@@ -8715,6 +8726,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 207.01 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "65c26518-1ec4-4c32-a94c-8c13cfea250b")
 		)
@@ -8852,6 +8874,17 @@
 			)
 		)
 		(property "temp-coefficient" "X7R"
+			(at 186.69 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 186.69 152.4 0)
 			(hide yes)
 			(show_name no)
