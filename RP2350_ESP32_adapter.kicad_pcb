@@ -73,7 +73,7 @@
 			(copper_finish "None")
 			(dielectric_constraints no)
 		)
-		(pad_to_mask_clearance 0)
+		(pad_to_mask_clearance 0.05)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -89,6 +89,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -121,9 +122,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../gerbers/RP2350_ESP32_adapter/")
 		)
 	)
 	(footprint "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
@@ -704,7 +705,7 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 16.39 43.88352)
@@ -8894,8 +8895,8 @@
 				(xy 157.226114 121.019799) (xy 157.340691 121.0505) (xy 157.340694 121.0505) (xy 157.459306 121.0505)
 				(xy 157.459309 121.0505) (xy 157.573886 121.019799) (xy 157.676613 120.960489) (xy 157.760489 120.876613)
 				(xy 157.819799 120.773886) (xy 157.838596 120.703733) (xy 157.87496 120.644075) (xy 157.937807 120.613546)
-				(xy 158.007182 120.621841) (xy 158.046051 120.648148) (xy 161.762893 124.36499) (xy 161.819998 124.422095)
-				(xy 161.894609 124.453) (xy 161.979871 124.453) (xy 162.04691 124.472685) (xy 162.092665 124.525489)
+				(xy 158.007182 120.621841) (xy 158.046051 120.648148) (xy 161.819998 124.422095) (xy 161.894609 124.453)
+				(xy 161.975367 124.453) (xy 161.979871 124.453) (xy 162.04691 124.472685) (xy 162.092665 124.525489)
 				(xy 162.102609 124.594647) (xy 162.073584 124.658203) (xy 162.048761 124.680102) (xy 162.007222 124.707857)
 				(xy 162.007214 124.707863) (xy 161.867863 124.847214) (xy 161.86786 124.847218) (xy 161.758371 125.011079)
 				(xy 161.758364 125.011092) (xy 161.68295 125.19316) (xy 161.682947 125.19317) (xy 161.6445 125.386456)

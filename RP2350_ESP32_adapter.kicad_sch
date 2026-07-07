@@ -6903,7 +6903,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "781c3ab9-df90-4fd8-8a55-94b67a8238d3")
 		(property "Reference" "U1"

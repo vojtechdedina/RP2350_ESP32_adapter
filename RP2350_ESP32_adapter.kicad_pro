@@ -711,7 +711,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerbers/RP2350_ESP32_adapter/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -723,7 +723,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "bom\\DoubleQ.csv",
+    "bom_export_filename": "bom\\RP2350_ESP32_adapter_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -784,7 +784,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
